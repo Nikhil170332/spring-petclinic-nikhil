@@ -1,6 +1,5 @@
 #!/bin/bash
 
-nohup java -jar *.jar &
-
+sudo nohup java -jar -Dserver.port=8080 *.jar &
 
 
