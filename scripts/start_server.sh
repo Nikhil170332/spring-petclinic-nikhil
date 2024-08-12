@@ -1,6 +1,6 @@
 #!/bin/bash
 
-java -jar *.jar &
+nohup java -jar *.jar &
 
 
 
