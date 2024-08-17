@@ -7,6 +7,6 @@ if [[$check -eq 0]]; then
     pkill -f spring-petclinic-3.3.0-SNAPSHOT.jar
     exit 0
 else
-    echo "Apache failed to stop"
+    echo "Application failed to stop"
     exit 1
 fi
